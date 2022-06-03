@@ -1,13 +1,88 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(148, 172, 202);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navWrapper {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(39, 39, 73);
+}
+
+.navLinks {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-size: 2rem; 
+  color: white;
+}
+
+.homeWrapper {
+  margin: 5rem;
+  text-align: center;
+}
+
+.smiley {
+  width: 25%;
+}
+
+.formWrapper {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.input {
+  line-height: 1.7rem;
+}
+
+.formBtn {
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.signup {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.signupLink {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.userInfo {
+  margin: 2rem auto;
+  width: 30%;
+  text-align: center;
+
+  border: solid blue;
+}
+
+.username {
+  font-size: 2rem;
+}
+
+.editForm {
+  text-align: center;
+}
+
+.editFormH {
+  font-size: 2rem;
+}
+
+.label {
+  margin: 0.3rem 0.5rem;
+  font-size: 1.25rem;
+}
+
+.blogWrapper {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 3rem;
 }
